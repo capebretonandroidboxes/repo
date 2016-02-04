@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.CapeBretonAndroidBoxes" name="CapeBretonAndroidBoxes repo" version="1.0" provider-name="capebretonandroidboxes">
+	<extension point="xbmc.addon.repository" name="capebretonandroidboxes Addon Repository">
+		<info compressed="false">https://raw.githubusercontent.com/xoptimus/capebretonandroid/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/xoptimus/capebretonandroidboxes/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/xoptimus/capebretonandroidboxes/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install My Addons</summary>
+		<description>Download and install addons from Cape Breton Android Boxes!</description>
+		<platform>all</platform>
+	</extension>
+</addon>
